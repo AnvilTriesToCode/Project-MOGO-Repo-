@@ -1,0 +1,49 @@
+{
+  "studies": [
+    {
+      "id": "OSD-379",
+      "repository": "NASA OSDR",
+      "title": "Comprehensive Multi-Omics and Autonomic Modulation in Spaceflight (Inspiration4 and ISS Expeditions)",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-379",
+      "target_signals": ["hrv", "heart_rate"],
+      "summary": "Demonstrates autonomic nervous system regulation changes in microgravity, marked by significant downward shifts in resting heart rate variability (rMSSD and SDNN) and sympathetic predominance during orbital mission phases.",
+      "physiological_context": "Microgravity induces rapid cephalad fluid redistribution, altering baroreceptor sensitivity and downregulating parasympathetic tone, presenting as statistically significant drops in resting HRV relative to pre-flight personal baselines."
+    },
+    {
+      "id": "OSD-194",
+      "repository": "NASA OSDR",
+      "title": "Cardiovascular and Autonomic Deconditioning in Long-Duration Low Earth Orbit Spaceflight",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-194",
+      "target_signals": ["hrv", "heart_rate", "core_temp"],
+      "summary": "Longitudinal evaluation of cardiovascular adaptation across 6-month ISS missions. Confirms resting heart rate elevation and autonomic dampening during periods of elevated workload and cumulative mission fatigue.",
+      "physiological_context": "Prolonged exposure to microgravity attenuates total autonomic modulation capacity. Deviations greater than 2.0 standard deviations from personal rolling baselines correlate with sleep architecture fragmentation and high metabolic load."
+    },
+    {
+      "id": "OSD-665",
+      "repository": "NASA OSDR",
+      "title": "Microgravity Hemodynamics, Venous Engorgement, and SANS-Related Vascular Biomarkers",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-665",
+      "target_signals": ["spo2", "core_temp", "hrv"],
+      "summary": "Quantifies internal jugular vein stagnation, intracranial venous pressure elevations, and microvascular perfusion adjustments in human spaceflight crewmembers.",
+      "physiological_context": "Cephalad fluid shifting alters microvascular pressure gradients. Coupled physiological deviations across oxygenation and autonomic metrics provide objective indicators of physiological adaptation stress."
+    },
+    {
+      "id": "GLDS-114",
+      "repository": "NASA GeneLab",
+      "title": "Circadian Pacemaker Disruption and Thermoregulatory Shifts in Orbital Habitats",
+      "url": "https://genelab.nasa.gov/study/GLDS-114",
+      "target_signals": ["sleep_hours", "core_temp"],
+      "summary": "Tracks gene expression and physiological core body temperature rhythmicity aboard the ISS under artificial 90-minute orbital lighting cycles.",
+      "physiological_context": "Disruption of central circadian clocks manifests as elevated resting nocturnal core temperature and truncated slow-wave sleep duration relative to 30-day baseline statistics."
+    },
+    {
+      "id": "NTRS-20210018049",
+      "repository": "NASA NTRS (Human Research Program)",
+      "title": "Human Research Program Evidence Book: Risk of Adverse Health Outcomes Due to Sleep and Circadian Disruption",
+      "url": "https://ntrs.nasa.gov/citations/20210018049",
+      "target_signals": ["sleep_hours", "exercise_minutes", "hrv"],
+      "summary": "NASA Human Research Program comprehensive risk assessment documenting that microgravity stressors and schedule demands result in acute sleep restriction (<6 hrs/night) and diminished physical training output.",
+      "physiological_context": "Multi-signal deviations occurring concurrently in a 48-hour window reflect operational strain and biological stress response, evidenced by extensive flight medicine records from Skylab through ISS."
+    }
+  ]
+}
